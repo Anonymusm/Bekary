@@ -4,24 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;800;900&family=Italiana&display=swap"
+      rel="stylesheet"
+    />
     <title>Bekary</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Delivery</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Contacts</a></li>
-          <li><a href="#">Reviews</a></li>
+    <header class="header">
+      <nav class="navigation">
+        <ul class="item-navigation">
+          <li class="item-navigation-list"><a href="#" class="item-navigation-link">About us</a></li>
+          <li class="item-navigation-list"><a href="#" class="item-navigation-link">Delivery</a></li>
+          <li class="item-navigation-list"><a href="#" class="item-navigation-link">Menu</a></li>
+          <li class="item-navigation-list"><a href="#" class="item-navigation-link">Contacts</a></li>
+          <li class="item-navigation-list"><a href="#" class="item-navigation-link">Reviews</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section class="item-first-section">
-        <h1>TRADITIONAL ARTISAX BAKERY</h1>
-        <p>
+    <main class="container">
+      <section class="first-section">
+        <h1 class="mean-title">TRADITIONAL ARTISAX BAKERY</h1>
+        <p class="lorem">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
@@ -29,77 +35,81 @@
           five centuries, but also the leap into electronic typesetting,
           remaining essentially unchanged.
         </p>
-        <button>Shop now</button>
+        <button type="button">Shop now</button>
       </section>
-      <section class="item-second-section">
-        <ul>
-          <li>
-            <article>
+      <section class="second-section">
+        <ul class="second-section-item">
+          <li class="second-section-list">
+            <article class="item-article">
               <img
                 src="./images/american-cookie.jpg"
                 alt="american-cookie"
                 width="150"
                 height="150"
+                class="eat-image"
               />
-              <p>$8.00(kg)</p>
-              <h4>American Cookie</h4>
+              <p class="eat-price">$8.00(kg)</p>
+              <h4 class="eat-title">American Cookie</h4>
               <button type="button">BUY</button>
             </article>
           </li>
-          <li>
-            <article>
+          <li class="second-section-list">
+            <article class="item-article">
               <img src="./images/croissant.jpg" alt="croissant" width="150" />
-              <p>$4.00</p>
-              <h4>Crushed with chockolate</h4>
+              <p class="eat-price">$4.00</p>
+              <h4 class="eat-title">Crushed with chockolate</h4>
               <button type="button">BUY</button>
             </article>
           </li>
-          <li>
-            <article>
+          <li class="second-section-list">
+            <article class="item-article">
               <img
                 src="./images/blueberry-pie.jpg"
                 alt="blueberry pie"
                 width="150"
                 height="150"
+                class="eat-image"
               />
-              <p>
+              <p class="eat-price">
                 For piece <br />
                 $4.00
               </p>
-              <h4>Blueberry Pie</h4>
+              <h4 class="eat-title">Blueberry Pie</h4>
               <button type="button">BUY</button>
             </article>
           </li>
         </ul>
       </section>
       <section class="item-third-section">
-        <h2>Menu</h2>
-        <ul>
-          <li>
+        <h2 class="third-section-title">Menu</h2>
+        <ul class="third-section-item">
+          <li class="third-section-list">
             <article>
               <img
                 src="./images/bread.jpg"
                 alt="Bread"
                 height="150"
                 width="250"
+                class="eat-image-third-section"
               />
               <h3>Breads</h3>
               <button type="button" class="bread-order-btn">Order</button>
             </article>
           </li>
-          <li>
+          <li class="third-section-list">
             <article>
               <img
                 src="./images/bekary.jpg"
                 alt="Bekary"
                 height="150"
                 width="250"
+                class="eat-image"
               />
               <h3>Bekary</h3>
               <button type="button" class="bekary-order-btn">Order</button>
             </article>
           </li>
-          <li>
+          <li class="third-section-list">
             <article>
               <img
                 src="./images/cakes.jpg"
@@ -111,7 +121,7 @@
               <button type="button" class="cake-order-btn">Order</button>
             </article>
           </li>
-          <li style="width: 350px">
+          <li class="third-section-list">
             <article>
               <img
                 src="./images/cookie.jpg"
