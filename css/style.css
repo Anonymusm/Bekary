@@ -1,0 +1,110 @@
+:root {
+  --main-color: #fff;
+  --accent-color: #b47b48;
+  --bg-section: #202023;
+  --add-color: #000;
+}
+
+/* * {
+  color: var(--main-color);
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header nav ul li {
+  width: 150px;
+}
+
+.item-first-section {
+  background-image: url(./images/fon-img.jpg);
+  width: 100%;
+}
+
+.item-first-section p {
+  font-size: medium;
+}
+
+.item-first-section button {
+  width: 207px;
+  height: 57px;
+  background-color: var(--accent-color);
+  font-size: x-large;
+}
+
+.item-second-section {
+  background-color: var(--bg-section);
+}
+
+.item-second-section ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-second-section ul li {
+  width: 350px;
+}
+
+.item-second-section button {
+  background-color: var(--accent-color);
+}
+
+.item-third-section {
+  background-color: var(--bg-section);
+}
+
+.item-third-section ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-third-section ul li {
+  width: 350px;
+}
+
+.bread-order-btn,
+.cookie-order-btn,
+.cake-order-btn,
+.bekary-order-btn {
+  display: flex;
+  width: 160px;
+  height: 41px;
+  background-color: var(--accent-color);
+  font-size: x-large;
+}
+
+.order-btn {
+  width: 207px;
+  height: 57px;
+  background-color: var(--accent-color);
+  color: var(--main-color);
+  font-size: medium;
+  margin-bottom: 30px;
+}
+
+.order-input {
+  width: 412px;
+  height: 72px;
+}
+
+.logo {
+  color: #000;
+}
+
+.register {
+  background-image: url(./images/myweb.jpg);
+}
+
+.register-div {
+  text-align: center;
+  width: 100%;
+  border-radius: 350px;
+  padding: 15px;
+  background: #fff;
+} */
