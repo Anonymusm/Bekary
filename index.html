@@ -35,7 +35,7 @@
           five centuries, but also the leap into electronic typesetting,
           remaining essentially unchanged.
         </p>
-        <button type="button">Shop now</button>
+        <button type="button" class="shop-btn-item">Shop now</button>
       </section>
       <section class="second-section">
         <ul class="second-section-item">
@@ -50,15 +50,15 @@
               />
               <p class="eat-price">$8.00(kg)</p>
               <h4 class="eat-title">American Cookie</h4>
-              <button type="button">BUY</button>
+              <button type="button" class="eat-btn-item">BUY</button>
             </article>
           </li>
           <li class="second-section-list">
             <article class="item-article">
-              <img src="./images/croissant.jpg" alt="croissant" width="150" />
+              <img src="./images/croissant.jpg" alt="croissant" width="150" class="croissant-image"/>
               <p class="eat-price">$4.00</p>
               <h4 class="eat-title">Crushed with chockolate</h4>
-              <button type="button">BUY</button>
+              <button type="button" class="eat-btn-item">BUY</button>
             </article>
           </li>
           <li class="second-section-list">
@@ -68,14 +68,14 @@
                 alt="blueberry pie"
                 width="150"
                 height="150"
-                class="eat-image"
+                class="blueberry-pie-image"
               />
               <p class="eat-price">
                 For piece <br />
                 $4.00
               </p>
               <h4 class="eat-title">Blueberry Pie</h4>
-              <button type="button">BUY</button>
+              <button type="button" class="eat-btn-item">BUY</button>
             </article>
           </li>
         </ul>
@@ -84,91 +84,96 @@
         <h2 class="third-section-title">Menu</h2>
         <ul class="third-section-item">
           <li class="third-section-list">
-            <article>
+            <article class="third-section-article">
               <img
                 src="./images/bread.jpg"
                 alt="Bread"
                 height="150"
                 width="250"
-                class="eat-image-third-section"
+                class="bread-image"
               />
-              <h3>Breads</h3>
-              <button type="button" class="bread-order-btn">Order</button>
+              <h3 class="bread-title">Breads</h3>
+             <button type="button" class="bread-order-btn">Order</button>
             </article>
           </li>
           <li class="third-section-list">
-            <article>
+            <article class="third-section-article">
               <img
                 src="./images/bekary.jpg"
                 alt="Bekary"
                 height="150"
                 width="250"
-                class="eat-image"
+                class="bekary-image"
               />
-              <h3>Bekary</h3>
+              <h3 class="bekary-title">Bekary</h3>
               <button type="button" class="bekary-order-btn">Order</button>
             </article>
           </li>
           <li class="third-section-list">
-            <article>
+            <article class="third-section-article">
               <img
                 src="./images/cakes.jpg"
                 alt="Cakes"
                 height="150"
                 width="250"
+                class="cake-image"
               />
-              <h3>Cakes</h3>
+              <h3 class="cake-title">Cakes</h3>
               <button type="button" class="cake-order-btn">Order</button>
             </article>
           </li>
           <li class="third-section-list">
-            <article>
+            <article class="third-section-article">
               <img
                 src="./images/cookie.jpg"
                 alt="Cookie"
                 height="150"
                 width="250"
+                class="cookie-image"
               />
-              <h3>Cookie</h3>
+              <h3 class="cookie-title">Cookie</h3>
               <button type="button" class="cookie-order-btn">Order</button>
             </article>
           </li>
         </ul>
       </section>
-      <section style="background-color: rgb(27, 27, 30)">
-        <h2 style="text-align: center">Quality our bekary</h2>
-        <ul style="list-style-type: none">
-          <li>
+      <section style="background-color: rgb(27, 27, 30)" class="fourth-section">
+        <h2 style="text-align: center" class="fourth-section-title">Quality our bekary</h2>
+        <ul style="list-style-type: none" class="fourth-section-item">
+          <li class="fourth-section-list">
             <img
               src="./images/bread.jpg"
               alt="bread"
               width="250"
               style="padding: 15px"
+              class="fourth-section-item-image"
             />
-            <p style="padding: 15px; background-color: gray">
+            <p style="padding: 15px; background-color: gray" class="food-recipe">
               1.Flour with fresh wheat <br />2.New drozzhi <br />3.Fresh eggs
               <br />4.Water from the well
             </p>
           </li>
-          <li>
+          <li class="fourth-section-list">
             <img
               src="./images/cookie.jpg"
               alt="Cookie"
               width="250"
               style="display: block; margin: 0 auto"
+              class="fourth-section-item-image"
             />
-            <p style="padding: 15px; background-color: gray">
+            <p style="padding: 15px; background-color: gray" class="food-recipe">
               1.Flour with fresh wheat <br />2.New drozzhi <br />3.Fresh eggs
               <br />4.Water from the well
             </p>
           </li>
-          <li>
+          <li class="fourth-section-list">
             <img
               src="./images/blueberry-pie.jpg"
               alt="blueberry pie"
               width="250"
+              class="fourth-section-item-image"
             />
-            <p style="padding: 15px; background-color: gray">
+            <p style="padding: 15px; background-color: gray" class="food-recipe">
               1.Flour with fresh wheat <br />2.New drozzhi <br />3.Fresh eggs
               <br />4.Water from the well
             </p>
@@ -179,63 +184,64 @@
         style="
           background-image: url(https://img.freepik.com/free-photo/egg-carton-and-wooden-spoon-with-flour_23-2148359077.jpg?size=626&ext=jpg&ga=GA1.1.966110764.1692302128&semt=ais);
         "
+        class="fifth-section"
       >
-        <h2 style="text-align: center">
+        <h2 style="text-align: center" class="fifth-section-title">
           Why TRADITIONAL <br />
           ARTISAX BAKERY?
         </h2>
-        <ul style="list-style-type: none; display: flex; flex-wrap: wrap">
-          <li style="width: 450px">
-            <p>Order at home</p>
+        <ul style="list-style-type: none; display: flex; flex-wrap: wrap" class="fifth-section-item">
+          <li style="width: 450px" class="fifth-section-list">
+            <p class="description">Order at home</p>
           </li>
-          <li style="width: 450px">
-            <p>Fresh food</p>
+          <li style="width: 450px" class="fifth-section-list">
+            <p class="description">Fresh food</p>
           </li>
-          <li style="width: 450px">
-            <p>Speed Delivery 24 h</p>
+          <li style="width: 450px" class="fifth-section-list">
+            <p class="description">Speed Delivery 24 h</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer style="background-color: rgb(27, 27, 30)">
+    <footer style="background-color: rgb(27, 27, 30)" class="footer">
       <h2>Where</h2>
-      <img src="./images/map.jpg" alt="google map" width="350" /> <br />
-      <a href="https://maps.app.goo.gl/nJJJ5VD7g96BYmpq9">Наша адресса</a>
-      <h2>How</h2>
+      <img src="./images/map.jpg" alt="google map" width="350" class="footer-map"/> <br />
+      <a href="https://maps.app.goo.gl/nJJJ5VD7g96BYmpq9" class="footer-map-item">Наша адресса</a>
+      <h2 class="how-footer-title">How</h2>
       <a href="tel:+380551231312">+38 055 123 13 12</a>
-      <h2>When</h2>
-      <p>with 8:30 to 20:30</p>
-      <div style="text-align: left; width: 100%; padding: 40px">
-        <p style="font-size: x-large">
+      <h2 class="when-footer-title">When</h2>
+      <p class="time-footer-item">with 8:30 to 20:30</p>
+      <div style="text-align: left; width: 100%; padding: 40px" class="footer-div">
+        <p style="font-size: x-large" class="footer-logo">
           TRADITIONAL <br />
           ARTISAX BAKERY
         </p>
-        <p>We want be helthy</p>
+        <p class="footer-description">We want be helthy</p>
       </div>
-      <div style="text-align: center; width: 100%">
-        <h2>About</h2>
-        <ul style="list-style-type: none">
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">News & Blog</a></li>
+      <div style="text-align: center; width: 100%" class="footer-div">
+        <h2 class="about-footer-title">About</h2>
+        <ul style="list-style-type: none" class="footer-item">
+          <li class="footer-list"><a href="#" class="footer-link">About us</a></li>
+          <li class="footer-list"><a href="#" class="footer-link">Features</a></li>
+          <li class="footer-list"><a href="#" class="footer-link">News & Blog</a></li>
         </ul>
       </div>
-      <div style="text-align: center; width: 100%">
-        <h2>Movement</h2>
-        <ul style="list-style-type: none">
-          <li><a href="#">What Eatly</a></li>
-          <li><a href="#">Support Us</a></li>
+      <div style="text-align: center; width: 100%" class="footer-div">
+        <h2 class="movement-footer-title">Movement</h2>
+        <ul style="list-style-type: none" class="footer-item">
+          <li class="footer-list"><a href="#" class="footer-link">What Eatly</a></li>
+          <li class="footer-list"><a href="#" class="footer-link">Support Us</a></li>
         </ul>
       </div>
-      <div style="text-align: center; width: 100%">
-        <h2>Company</h2>
-        <ul style="list-style-type: none">
-          <li><a href="#">Why Eatly</a></li>
-          <li><a href="#">Capital</a></li>
-          <li><a href="#">Securaty</a></li>
+      <div style="text-align: center; width: 100%" class="footer-div">
+        <h2 class="company-footer-title">Company</h2>
+        <ul style="list-style-type: none" class="footer-item">
+          <li class="footer-list"><a href="#" class="footer-link">Why Eatly</a></li>
+          <li class="footer-list"><a href="#" class="footer-link">Capital</a></li>
+          <li class="footer-list"><a href="#" class="footer-link">Securaty</a></li>
         </ul>
       </div>
-      <p style="text-align: center; padding: 25px">
+      <p style="text-align: center; padding: 25px" class="web-rules">
         &commat;2022 Eatly.All right riserved.
       </p>
     </footer>

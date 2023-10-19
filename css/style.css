@@ -58,13 +58,13 @@ header nav ul li {
   background-color: var(--bg-section);
 }
 
-.item-third-section ul {
+.third-section-item {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
 }
 
-.item-third-section ul li {
+.third-section-list {
   width: 350px;
 }
 
