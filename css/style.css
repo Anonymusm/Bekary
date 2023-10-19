@@ -16,19 +16,20 @@
   font-size: 24px;
 }
 
-.item-navigtion {
+.item-navigation {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
 }
 
-.item-navigtion-list {
+.item-navigation-list {
   width: 150px;
 }
 
-.first-section {
-  background-image: url(./images/fon-img.jpg);
-  width: 100%;
+.first-section,
+.header,
+.second-section {
+  background-image: url(/images/fon-img.jpg);
 }
 
 .first-section .lorem {
@@ -195,6 +196,5 @@ time {
   text-align: center;
   width: 100%;
   border-radius: 350px;
-  padding: 15px;
   background: #fff;
 }
