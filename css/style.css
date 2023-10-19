@@ -3,6 +3,7 @@
   --accent-color: #b47b48;
   --bg-section: #202023;
   --add-color: #000;
+  --accent-bg-color: #c85312;
 }
 
 * {
@@ -74,7 +75,7 @@
 }
 
 .second-section .eat-btn-item {
-  background-color: var(--accent-color);
+  background-color: var(--accent-bg-color);
   font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 16px;
@@ -137,7 +138,7 @@
   font-size: 24px;
 }
 
-time {
+.time-footer-item {
   font-family: "Inter", sans-serif;
   font-weight: 200;
   font-size: 24px;
