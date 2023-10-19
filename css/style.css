@@ -5,57 +5,88 @@
   --add-color: #000;
 }
 
-/* * {
+* {
   color: var(--main-color);
   text-align: center;
 }
 
-header nav ul {
+.item-navigation-link {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+}
+
+.item-navigtion {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
 }
 
-header nav ul li {
+.item-navigtion-list {
   width: 150px;
 }
 
-.item-first-section {
+.first-section {
   background-image: url(./images/fon-img.jpg);
   width: 100%;
 }
 
-.item-first-section p {
-  font-size: medium;
+.first-section .lorem {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 21px;
 }
 
-.item-first-section button {
+.first-section-eat-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.first-section .shop-btn-item {
   width: 207px;
   height: 57px;
   background-color: var(--accent-color);
-  font-size: x-large;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
 }
 
-.item-second-section {
+.second-section {
   background-color: var(--bg-section);
 }
 
-.item-second-section ul {
+.second-section-item {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
 }
 
-.item-second-section ul li {
-  width: 350px;
+.second-section-list {
+  width: 450px;
 }
 
-.item-second-section button {
+.eat-price {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+}
+
+.second-section .eat-btn-item {
   background-color: var(--accent-color);
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
 }
 
-.item-third-section {
+.third-section {
   background-color: var(--bg-section);
+}
+
+.third-section-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+  font-size: 64px;
 }
 
 .third-section-item {
@@ -76,7 +107,66 @@ header nav ul li {
   width: 160px;
   height: 41px;
   background-color: var(--accent-color);
-  font-size: x-large;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 25.92px;
+}
+
+.fourth-section-title {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+}
+
+.fifth-section-title {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.description {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.food-recipe {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+time {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+}
+
+.how-footer-title,
+.when-footer-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.footer-title {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+}
+
+.footer-title-item,
+.footer-link,
+.footer-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.web-rules {
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
 }
 
 .order-btn {
@@ -107,4 +197,4 @@ header nav ul li {
   border-radius: 350px;
   padding: 15px;
   background: #fff;
-} */
+}
