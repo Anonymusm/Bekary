@@ -11,41 +11,41 @@
   text-align: center;
 }
 
-.item-navigation-link {
+.navigation-link {
   font-family: "Inter", sans-serif;
   font-weight: 200;
   font-size: 24px;
 }
 
-.item-navigation {
+.navigation-list {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
 }
 
-.item-navigation-list {
+.navigation-item {
   width: 150px;
 }
 
-.first-section,
+.hero,
 .header,
-.second-section {
+.food {
   background-image: url(/images/fon-img.jpg);
 }
 
-.first-section .lorem {
+.hero-text {
   font-family: "Inter", sans-serif;
   font-weight: 300;
   font-size: 21px;
 }
 
-.first-section-eat-title {
+.hero-title {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 16px;
 }
 
-.first-section .shop-btn-item {
+.hero-btn {
   width: 207px;
   height: 57px;
   background-color: var(--accent-color);
@@ -54,57 +54,54 @@
   font-size: 24px;
 }
 
-.second-section {
+.food {
   background-color: var(--bg-section);
 }
 
-.second-section-item {
+.food-list {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
 }
 
-.second-section-list {
+.food-item {
   width: 450px;
 }
 
-.eat-price {
+.food-info {
   font-family: "Inter", sans-serif;
   font-weight: 200;
   font-size: 24px;
 }
 
-.second-section .eat-btn-item {
+.food-btn {
   background-color: var(--accent-bg-color);
   font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 16px;
 }
 
-.third-section {
+.menu {
   background-color: var(--bg-section);
 }
 
-.third-section-title {
+.menu-title {
   font-family: "Inter", sans-serif;
   font-weight: 100;
   font-size: 64px;
 }
 
-.third-section-item {
+.menu-list {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
 }
 
-.third-section-list {
+.menu-item {
   width: 350px;
 }
 
-.bread-order-btn,
-.cookie-order-btn,
-.cake-order-btn,
-.bekary-order-btn {
+.menu-btn {
   display: flex;
   width: 160px;
   height: 41px;
@@ -114,31 +111,25 @@
   font-size: 25.92px;
 }
 
-.fourth-section-title {
+.recipe-title {
   font-family: "Italiana", sans-serif;
   font-weight: 400;
   font-size: 64px;
 }
 
-.fifth-section-title {
+.why-title {
   font-family: "Italiana", sans-serif;
   font-weight: 400;
   font-size: 48px;
 }
 
-.description {
+.why-info {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 24px;
 }
 
-.food-recipe {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 24px;
-}
-
-.time-footer-item {
+.time-footer {
   font-family: "Inter", sans-serif;
   font-weight: 200;
   font-size: 24px;
@@ -159,19 +150,19 @@
 
 .footer-title-item,
 .footer-link,
-.footer-description {
+.footer-info {
   font-family: "Inter", sans-serif;
   font-weight: 300;
   font-size: 24px;
 }
 
-.web-rules {
+.footer-information {
   font-family: "Inter", sans-serif;
   font-weight: 100;
   font-size: 20px;
 }
 
-.order-btn {
+/* .order-btn {
   width: 207px;
   height: 57px;
   background-color: var(--accent-color);
@@ -198,4 +189,4 @@
   width: 100%;
   border-radius: 350px;
   background: #fff;
-}
+} */
