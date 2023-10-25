@@ -9,10 +9,10 @@
 * {
   color: var(--main-color);
   text-align: center;
+  font-family: "Inter", sans-serif;
 }
 
 .navigation-link {
-  font-family: "Inter", sans-serif;
   font-weight: 200;
   font-size: 24px;
 }
@@ -34,13 +34,11 @@
 }
 
 .hero-text {
-  font-family: "Inter", sans-serif;
   font-weight: 300;
   font-size: 21px;
 }
 
 .hero-title {
-  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 16px;
 }
@@ -49,7 +47,7 @@
   width: 207px;
   height: 57px;
   background-color: var(--accent-color);
-  font-family: "Inter", sans-serif;
+
   font-weight: 300;
   font-size: 24px;
 }
@@ -69,14 +67,13 @@
 }
 
 .food-info {
-  font-family: "Inter", sans-serif;
   font-weight: 200;
   font-size: 24px;
 }
 
 .food-btn {
   background-color: var(--accent-bg-color);
-  font-family: "Inter", sans-serif;
+
   font-weight: 900;
   font-size: 16px;
 }
@@ -86,7 +83,6 @@
 }
 
 .menu-title {
-  font-family: "Inter", sans-serif;
   font-weight: 100;
   font-size: 64px;
 }
@@ -106,7 +102,7 @@
   width: 160px;
   height: 41px;
   background-color: var(--accent-color);
-  font-family: "Inter", sans-serif;
+
   font-weight: 800;
   font-size: 25.92px;
 }
@@ -124,20 +120,17 @@
 }
 
 .why-info {
-  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 24px;
 }
 
 .time-footer {
-  font-family: "Inter", sans-serif;
   font-weight: 200;
   font-size: 24px;
 }
 
 .how-footer-title,
 .when-footer-title {
-  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 40px;
 }
@@ -150,14 +143,12 @@
 
 .footer-title-item,
 .footer-link,
-.footer-info {
-  font-family: "Inter", sans-serif;
+.footer-slogan {
   font-weight: 300;
   font-size: 24px;
 }
 
 .footer-information {
-  font-family: "Inter", sans-serif;
   font-weight: 100;
   font-size: 20px;
 }
