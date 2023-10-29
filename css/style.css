@@ -10,6 +10,7 @@
   color: var(--main-color);
   text-align: center;
   font-family: "Inter", sans-serif;
+  background-color: var(--bg-section);
 }
 
 .navigation-link {
@@ -27,12 +28,6 @@
   width: 150px;
 }
 
-.hero,
-.header,
-.food {
-  background-image: url(/images/fon-img.jpg);
-}
-
 .hero-text {
   font-weight: 300;
   font-size: 21px;
@@ -40,7 +35,7 @@
 
 .hero-title {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 70px;
 }
 
 .hero-btn {
@@ -50,10 +45,6 @@
 
   font-weight: 300;
   font-size: 24px;
-}
-
-.food {
-  background-color: var(--bg-section);
 }
 
 .food-list {
@@ -71,15 +62,15 @@
   font-size: 24px;
 }
 
+.food-title {
+  font-weight: 500;
+}
+
 .food-btn {
   background-color: var(--accent-bg-color);
 
   font-weight: 900;
   font-size: 16px;
-}
-
-.menu {
-  background-color: var(--bg-section);
 }
 
 .menu-title {
@@ -97,11 +88,17 @@
   width: 350px;
 }
 
+.menu-item-title {
+  font-size: 25.92px;
+  font-weight: 800;
+}
+
 .menu-btn {
   display: flex;
   width: 160px;
   height: 41px;
   background-color: var(--accent-color);
+  border-radius: 17px;
 
   font-weight: 800;
   font-size: 25.92px;
@@ -117,6 +114,8 @@
   font-family: "Italiana", sans-serif;
   font-weight: 400;
   font-size: 48px;
+  text-align: center;
+  color: #d9d9d9;
 }
 
 .why-info {
@@ -129,6 +128,11 @@
   font-size: 24px;
 }
 
+.footer-logo {
+  font-size: 40px;
+  font-weight: 200;
+}
+
 .how-footer-title,
 .when-footer-title {
   font-weight: 400;
@@ -138,7 +142,11 @@
 .footer-title {
   font-family: "Italiana", sans-serif;
   font-weight: 400;
-  font-size: 64px;
+  font-size: 48px;
+}
+
+.footer-link {
+  text-decoration: none;
 }
 
 .footer-title-item,
